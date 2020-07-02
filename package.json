@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/bricio123/Services_all__point/issues"
   },
-  "homepage": "https://github.com/bricio123/Services_all__point#readme",
-  "dependencies": {
-    "live-server": "^1.2.1"
-  }
+  "homepage": "https://github.com/bricio123/Services_all__point#readme"
 }
