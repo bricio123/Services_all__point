@@ -1,0 +1,28 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "The purpose of the site and help microentrepreneur to be seen more easily. and people looking for such services have facility to find.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bricio123/Services_all__point.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "and",
+    "others"
+  ],
+  "author": "fabricio de sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bricio123/Services_all__point/issues"
+  },
+  "homepage": "https://github.com/bricio123/Services_all__point#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
