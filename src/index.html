@@ -9,7 +9,7 @@
     <!--Importações -->
 
     <!--Google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700;900&display=swap"
         rel="stylesheet">
     <!--Font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
@@ -29,21 +29,49 @@
 </head>
 
 <body>
-    <header>
+    <header class="nav">
         <section class="navbar">
-            <i class="fas fa-briefcase"> Serivços Aqui</i>
+            <section class="icon__service">
+                <i class="fas fa-briefcase"><strong class="icon"> Seu Serviço</strong></i>
+                <small>Online</small>
+            </section>
             <ul class="nav__links">
-                <li><a href="">Quem somos</a></li>
+                <li><a href="" class="active">Quem somos</a></li>
                 <li><a href="">Como Funciona</a></li>
                 <li><a href="">Entre em Contato</a></li>
             </ul>
             <section class="nav__buttons">
-                <a href="">Entrar</a>
-                <a href="">Cadastre-se como Vendedor</a>
+                <a href="" class=" button_number__one">Entrar</a>
+                <a href="" class=" button_number__two">Cadastre-se como Vendedor</a>
             </section>
 
         </section>
     </header>
+    <div class="found__services">
+        <div class="found__container">
+            <section class="found__copy">
+                <h1>Uma forma fácil de buscar <span>serviços</span></h1>
+                <p>Busque por especialistas que supra sua necessidade. Filtre por serviços e regiões.</p>
+                <section class="inputs">
+
+                    <section class="inp number__one">
+                        <input class="form-control" placeholder="Serviço..">
+                        
+                    </section>
+
+                    <section class="inp number__two">
+                        <input class="form-control" placeholder="Região">
+                        <button><i class="fab fa-searchengin"></i></button>
+                    </section>
+
+                </section>
+            </section>
+
+            <div class="found__img">
+                <img src="./img/undraw_services_5tv9.svg" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

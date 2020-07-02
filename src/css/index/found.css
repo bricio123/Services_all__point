@@ -1,0 +1,31 @@
+.found__services{
+  width: 100%;
+  height: 90vh;
+}
+.found__container{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    
+}
+.found__copy{
+  
+}
+.found__img{
+   width: 700px;
+   padding: 50px;
+    background: var(--color-icon);
+}
+.found__img img{
+    width: 100%;
+    height: 90vh;
+}
+.inputs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.inp{
+    display: flex;
+
+}
