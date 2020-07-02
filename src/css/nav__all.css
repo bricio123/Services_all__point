@@ -1,0 +1,13 @@
+.navbar{
+    width: 100%;
+}
+.nav__links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+ 
+}
+.nav__links a{
+    list-style: none;
+    text-decoration: none;
+}

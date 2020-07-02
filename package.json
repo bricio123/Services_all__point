@@ -2,8 +2,9 @@
   "name": "services",
   "version": "1.0.0",
   "description": "The purpose of the site and help microentrepreneur to be seen more easily. and people looking for such services have facility to find.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "start": "npx live-server  src/ --port=3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/bricio123/Services_all__point/issues"
   },
-  "homepage": "https://github.com/bricio123/Services_all__point#readme"
+  "homepage": "https://github.com/bricio123/Services_all__point#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "live-server": "^1.2.1"
+  }
 }
