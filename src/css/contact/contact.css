@@ -1,0 +1,6 @@
+.img__background{
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./img/imagem_background.jpg);
+}
