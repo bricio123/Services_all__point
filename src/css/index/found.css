@@ -24,8 +24,16 @@
 }
 .found__copy{
     width: 500px;
-    
+    color: gray;
 }
+.found__copy h1{
+    font-weight: 900;
+  
+}
+.found__copy span{
+    color: var(--color-icon);
+}
+
 .found__img{
    width: 100% ;
     height: 100%;
@@ -51,8 +59,22 @@
     border: unset;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
+    background: var(--color-icon);
+}
+.search:hover{
+    background:rgba(0, 0, 255, 0.76);
+    transition: 1s all;
+}
+.search i{
+    color: var(--color-primary);
+    font-size: .8rem;
+   
 }
 .inp{
     display: flex;
     align-items: center;
+    
+}
+.form-control{
+    outline: none !important;
 }
