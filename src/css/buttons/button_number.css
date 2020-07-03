@@ -1,11 +1,12 @@
 .button_number__one{
-    border: 1px solid var(--color-primary);
+   
     padding: 10px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     font-family: "Montserrat", sans-serif;
     font-size: 0.7rem;
     color: var(--color-primary);
+    background: var(--color-icon);
     text-decoration: none !important;
     margin-right: 15px;
     font-weight: 700;
@@ -17,10 +18,10 @@
     font-weight: 700;
 }
 .button_number__two{
-    border: 1px solid var(--color-primary);
-    background: var(--color-primary);
+    border: 1px solid var(--color-second);
+    background: transparent;
     padding: 10px;
-    color: var(--color-icon);
+    color: var(--color-second);
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     font-family: "Montserrat", sans-serif;
@@ -30,4 +31,5 @@
 }
 .button_number__two:hover{
     box-shadow: 1px 1px 2px #000;
+    color: var(--color-second);
 }
