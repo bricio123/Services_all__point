@@ -1,0 +1,28 @@
+.how__work{
+    height: 100%;
+
+}
+.how__work__container{
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img img{
+    width: 500px;
+    padding: 50px;
+    background-size: cover;
+}
+.copy h2{
+    padding-bottom: 50px;
+    color: var(--color-icon);
+    font-weight: 900;
+}
+.copy p{
+    font-size: .8rem;
+   
+}

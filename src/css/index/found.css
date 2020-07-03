@@ -13,8 +13,7 @@
     grid-template-columns:4fr 3fr;
     justify-content: center;
     align-items: center;
-    
-  
+
 }
 .found__container img{
     position: absolute;

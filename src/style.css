@@ -5,3 +5,6 @@
 
 /* variaveis */
 @import "./css/variables.css";
+
+/*paginas*/
+@import "./css/about/about.css";
